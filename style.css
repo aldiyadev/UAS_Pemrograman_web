@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@300;400;500;600;700;800&display=swap');
+
+* {
+    font-family: 'Work Sans', sans-serif;
+}
+
+
+.spacing {
+    margin-top: 6%;
+}
+
+.navbar {
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    background-color: white !important;
+}
+
+.nav-link {
+    margin-right: 16px;
+}
+
+a.nav-link.active {
+    color: #2875FA !important;
+    border-bottom: 1px solid #2875FA;
+}
+
+.nav-link:hover {
+    color: #2875FA;
+    border-bottom: 1px solid #2875FA;
+}
+
+.hubungi-kami {
+    background-color: #2875FA;
+    border-radius: 4px;
+}
+
+.hubungi-kami a {
+    color: white !important;
+    padding: 10px 40px;
+}
+
+.btn-lihat-course {
+    background-color: #455FE2;
+    color: white;
+    padding: 10px 40px;
+    border-radius: 5px !important;
+}
+
+.section-1 h1 {
+    font-weight: normal;
+}
+
+.section-1 p {
+    padding-right: 40px;
+}
+
+
+.section-2 {
+    background-color: rgba(40, 117, 250, 0.12);
+    padding: 50px;
+    border-radius: 17px;
+}
+
+iframe {
+    border-radius: 9px;
+}
+
+.section-3 h3 {
+    color: #2875FA;
+    font-weight: bold;
+}
+
+.section-3 table {
+    /* border-color: 1px solid #737373; */
+    border-radius: 6px;
+    box-shadow: 20px 20px 0px rgba(108, 108, 108, 0.17);
+}
+
+.section-3 table tr td{
+    padding: 20px 20px;
+}
+
+.divider {
+    border-top: 1px solid rgba(0, 0, 0, 0.31);;
+}
+
+.card {
+    box-shadow: 0px 0px 8px 1px rgba(0, 0, 0, 0.15);
+}
+
+.section-4 .card img {
+    padding: 20px 20px 0 20px;
+}
+
+.section-4 span {
+    font-size: 16px;
+    color: black;
+}
+
+.section-4 h5 {
+    color: #2875FA;
+}
+
+.section-4 p {
+    color: #808080;
+    line-height: 19px;
+    font-weight: normal;
+}
+
+.section-4 .course-btn-blue {
+    background-color: #2875FA;
+    color: white;
+    font-weight: 400 !important;
+    padding: 10px;
+}
+
+.section-4 .course-btn-blue:hover {
+    background-color: #1c5bc9;
+    color: white;
+}
+
+.section-4 .course-btn-white {
+    background-color: white;
+    border: 1px solid #2875FA !important;
+    color: #2875FA;
+    font-weight: 400 !important;
+    padding: 10px;
+}
+
+.section-4 .course-btn-white:hover {
+    background-color: #1c5bc9;
+    color: white;
+}
+
+
+.section-5 {
+    /* background-color: rgba(40, 117, 250, 0.12); */
+    border: 1px solid #1c5bc9;
+    padding: 50px;
+    border-radius: 17px;
+}
+
+footer {
+    background-color: #424242;
+}
+
+footer .navbar {
+    box-shadow: unset;
+    background-color: transparent !important;
+}
+
+footer .nav-link {
+    color: white;
+}
+
+footer a.nav-link.active {
+    color: #2875FA !important;
+    border-bottom: 1px solid #2875FA;
+}
+
+footer p {
+    color: white;
+}
+
+.hubungi-kami-page {
+    background-color: rgba(197, 197, 197, 0.12);
+    border-radius: 6px ;
+}
